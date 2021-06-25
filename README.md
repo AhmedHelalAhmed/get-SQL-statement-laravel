@@ -8,8 +8,8 @@ This package allows to get mysql statement that query builder in laravel made it
 
 ```php
     $query = \App\Models\User::where('id', 1)->verified();
-    dd(getMYSQLStatement($query));
-    // select * from `users` where `id` = 1 and `email_verified_at` is null
+    getMYSQLStatement($query);
+    // select * from `users` where `id` = 1 and `email_verified_at` is not null
 ```
 
 ## Installation

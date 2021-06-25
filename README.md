@@ -4,11 +4,11 @@ This package allows to get mysql statement that query builder in laravel made it
 
 ## Basic usage
 
-### Dump simple message:
+### Dump simple query:
 
 ```php
     $query = \App\Models\User::where('id', 1)->verified();
-    getMYSQLStatement($query);
+    dump(getMYSQLStatement($query));
     // select * from `users` where `id` = 1 and `email_verified_at` is not null
 ```
 

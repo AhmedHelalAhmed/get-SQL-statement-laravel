@@ -1,0 +1,28 @@
+{
+    "name": "ahmedhelalahmed/get-mysql-statement-laravel",
+    "authors": [
+        {
+            "name": "Ahmed Helal Ahmed",
+            "email": "ahmed.helal.online@gmail.com"
+        }
+    ],
+    "description": "Get MYSQL statement from query builder in laravel helper",
+    "keywords": [
+        "framework",
+        "laravel",
+        "helpers",
+        "query builder",
+        "query",
+        "MYSQL"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0|^8.0",
+        "illuminate/support": "^8.13"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}

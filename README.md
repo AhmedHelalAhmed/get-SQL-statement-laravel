@@ -1,6 +1,6 @@
 # Get MYSQL statement laravel
 
-This package allows to get mysql statement that query builder in laravel made it for debugging purpose.
+This package allows to get mysql statement that query builder in laravel made it for debugging purposes.
 
 ## Basic usage
 
